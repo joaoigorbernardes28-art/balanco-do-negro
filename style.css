@@ -609,3 +609,19 @@ footer {
         transition: none;
     }
 }
+
+/* Alinhamento dos botões dos cartões */
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .botao {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.card .botao-mapa {
+    margin-top: 12px;
+}
